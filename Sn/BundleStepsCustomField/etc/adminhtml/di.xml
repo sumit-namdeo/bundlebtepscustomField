@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\BundlePanel">
+
+        <plugin name="bundle_addtional_options"
+                type="Sn\BundleStepsCustomField\Plugin\Catalog\Ui\DataProvider\Product\Form\Modifier\BundlePanel"
+                sortOrder="1000"/>
+    </type>
+
+    <preference for="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\Composite"
+                type="Sn\BundleStepsCustomField\Ui\DataProvider\Product\Form\Modifier\Composite"/>
+
+</config>
