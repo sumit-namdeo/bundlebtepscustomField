@@ -1,4 +1,4 @@
-# bundlebtepscustomField
+# bundlebtepscustomfield
 Add custom field to bundle options
 
 
